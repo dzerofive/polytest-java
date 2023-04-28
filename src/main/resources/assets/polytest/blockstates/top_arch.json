@@ -1,0 +1,5 @@
+{
+        "variants": {
+                "": { "model": "polytest:block/top_arch" }
+        }
+}

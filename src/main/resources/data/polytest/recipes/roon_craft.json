@@ -1,0 +1,16 @@
+{
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+                "###",
+                "#O#",
+                "###"
+        ],
+        "key": {
+                "#": { "item":"minecraft:iron_block" },
+                "O": { "item":"minecraft:oak_boat" }
+        },
+        "result": {
+                "item": "polytest:roon_block",
+                "count": 1
+        }
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "polytest",
+	"version": "${version}",
+
+	"name": "Poly Test",
+	"description": "Poly test mod!!!!!!",
+	"authors": [ "dzerofive" ],
+	"contact": {
+		"homepage": "https://polysadnik.nl/",
+		"sources": "https://github.com/dzerofive/"
+	},
+
+	"license": "MIT",
+	"icon": "",
+
+	"environment": "*",
+	"entrypoints": {
+		"main": [ "nl.polysadnik.polytest.PolyTest" ],
+		"client": [ "nl.polysadnik.polytest.PolyTestClient" ]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.14.2",
+		"fabric-api": "*",
+		"minecraft": "~1.19.4",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "None!"
+	}
+}
